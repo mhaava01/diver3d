@@ -6,7 +6,7 @@ import {Text as TextType} from "@react-three/drei/core/Text"
 
 type TextTypeExtended = typeof TextType
   & { text: string }
-function Diver() {
+const Diver = (): JSX.Element => {
   const { scene, animations } = useGLTF('/diver.glb')
   const { actions } = useAnimations(animations, scene)
 
