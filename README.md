@@ -1,4 +1,5 @@
 # diver3d
+Demo: https://diver3d.vercel.app/
 
 ### 3D models
 diver.glb - https://sketchfab.com/ucdavisterc
